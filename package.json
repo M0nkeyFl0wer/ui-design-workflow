@@ -1,0 +1,31 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ui-design": "node scripts/capture-screenshot.js",
+    "capture": "node scripts/capture-screenshot.js",
+    "test-responsive": "node scripts/test-responsive.js",
+    "check-errors": "node scripts/validate-design.js",
+    "setup": "node scripts/setup-ui-workflow.js",
+    "serve": "python3 -m http.server 3000 -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/tria-files.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/your-username/tria-files/issues"
+  },
+  "homepage": "https://github.com/your-username/tria-files#readme",
+  "dependencies": {
+    "chrome-launcher": "^1.2.0",
+    "puppeteer-core": "^24.22.0"
+  }
+}
